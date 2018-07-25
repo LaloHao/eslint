@@ -1,0 +1,5 @@
+* eslint-config-hao
+  Base: =eslint-airbnb=
+
+** Rules
+*** Enforce file extensions on imports
