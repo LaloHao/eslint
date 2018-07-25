@@ -1,16 +1,35 @@
 * eslint-config-hao
   Base: =eslint-airbnb=
 
-  Usage:
+** Table of contents                                                  :TOC_3:
+- [[#eslint-config-hao][eslint-config-hao]]
+  - [[#usage][Usage]]
+    - [[#install][Install]]
+    - [[#extend][Extend]]
+  - [[#rules][Rules]]
+    - [[#enforce-file-extensions-on-imports][Enforce file extensions on imports]]
 
-  Intall:
-  #+BEGIN_SRC sh
-    yarn add --dev LaloHao/eslint#develop
-  #+END_SRC
+** Usage
+   Root folder should look like this:
 
-  Add =.eslintrc.yaml= to project root.
-  #+BEGIN_SRC yaml
-    extends: hao
-  #+END_SRC
+   #+BEGIN_SRC sh
+     .
+     ├── node_modules
+     ├── package.json
+     └── .eslintrc.yaml
+   #+END_SRC
+*** Install
+
+    #+BEGIN_SRC sh
+      yarn add --dev LaloHao/eslint#develop
+    #+END_SRC
+
+*** Extend
+    Add =.eslintrc.yaml= to project root.
+
+    #+BEGIN_SRC yaml
+      extends: hao
+    #+END_SRC
+
 ** Rules
 *** Enforce file extensions on imports
