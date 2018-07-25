@@ -1,7 +1,8 @@
 * eslint-config-hao
   Base: =eslint-airbnb=
 
-  Decorator support with =babel=eslint=
+  + Decorators
+  + Jest
 
 ** Table of contents                                                  :TOC_3:
 - [[#eslint-config-hao][eslint-config-hao]]
