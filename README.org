@@ -1,5 +1,16 @@
 * eslint-config-hao
   Base: =eslint-airbnb=
 
+  Usage:
+
+  Intall:
+  #+BEGIN_SRC sh
+    yarn add --dev LaloHao/eslint#develop
+  #+END_SRC
+
+  Add =.eslintrc.yaml= to project root.
+  #+BEGIN_SRC yaml
+    extends: hao
+  #+END_SRC
 ** Rules
 *** Enforce file extensions on imports
