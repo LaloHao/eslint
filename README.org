@@ -1,6 +1,8 @@
 * eslint-config-hao
   Base: =eslint-airbnb=
 
+  Decorator support with =babel=eslint=
+
 ** Table of contents                                                  :TOC_3:
 - [[#eslint-config-hao][eslint-config-hao]]
   - [[#usage][Usage]]
@@ -21,7 +23,7 @@
 *** Install
 
     #+BEGIN_SRC sh
-      yarn add --dev LaloHao/eslint#develop
+      yarn add --dev lalohao/eslint#develop
     #+END_SRC
 
 *** Extend

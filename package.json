@@ -6,6 +6,7 @@
   "author": "Eduardo V.",
   "license": "WTFPL",
   "dependencies": {
+    "babel-eslint": "^8.2.6",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^17.0.0",
     "eslint-plugin-import": "^2.13.0",

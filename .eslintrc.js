@@ -1,6 +1,7 @@
 module.exports = {
-  "extends": "airbnb",
-  "rules": {
-    "import/extensions": [2, "always" ],
+  extends: "airbnb",
+  parser: "babel-eslint",
+  rules: {
+    "import/extensions": [2, "always"],
   },
 };
