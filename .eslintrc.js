@@ -8,6 +8,5 @@ module.exports = {
     "jest/globals": true,
   },
   rules: {
-    "import/extensions": [2, "always"],
   },
 };
