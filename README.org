@@ -24,7 +24,7 @@
 *** Install
 
     #+BEGIN_SRC sh
-      yarn add --dev lalohao/eslint#develop
+      yarn add --dev lalohao/eslint#develop eslint-plugin-jest
     #+END_SRC
 
 *** Extend
